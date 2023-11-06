@@ -4,6 +4,7 @@ public class Employee {
     private int empId;
     private String department;
     private String name;
+    private ArrayList<Boat> boats = new ArrayList<Boat>();
 
     public Employee(int employeeId, String department) {
         this.empId = employeeId;
