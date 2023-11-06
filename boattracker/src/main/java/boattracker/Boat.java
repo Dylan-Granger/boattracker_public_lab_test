@@ -23,8 +23,7 @@ public class Boat {
 
      
     public void addUser(Employee employee){
-	    this.users.add(employee);
-        employee.addBoat(this);
+	this.users.add(employee);
     }
 
     public void removeUser(Employee employee){
